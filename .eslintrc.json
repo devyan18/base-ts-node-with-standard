@@ -1,0 +1,25 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "extends": [
+        "standard"
+    ],
+    "rules": {
+    },
+    "overrides": [
+        {
+            "files": [
+                "*.ts"
+            ],
+            "parserOptions": {
+                "project": "./tsconfig.json"
+            }
+        }
+    ],
+    "ignorePatterns": [
+        "node_modules/",
+        "dist/"
+    ]
+}
