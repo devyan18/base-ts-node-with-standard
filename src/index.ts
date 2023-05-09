@@ -1,5 +1,5 @@
 function main () {
-  console.log("server is starting... sdasdas");
+  console.log('server is starting... sdasdas')
 }
 
-main();
+main()
